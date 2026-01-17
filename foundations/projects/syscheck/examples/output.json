@@ -1,0 +1,8 @@
+{
+  "arch": "arm64",
+  "collected_at": "2024-01-01T00:00:00Z",
+  "node": "example-host",
+  "os": "Darwin",
+  "os_release": "23.0.0",
+  "python_version": "3.10.0"
+}
