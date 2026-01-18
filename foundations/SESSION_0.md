@@ -21,7 +21,7 @@ Session 0 verifies that your local workstation can work with this repository. Be
 2. **Clone this repository**
    ```bash
    cd ~/workdir   # replace with your preferred projects folder
-   git clone git@github.com:YOUR-ORG/foundations.git
+   git clone https://github.com/IDTMS/bx-training.git
    cd foundations
    ```
    Use the HTTPS URL if SSH is not configured.
