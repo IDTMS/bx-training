@@ -6,6 +6,7 @@ Session 0 verifies that your local workstation can work with this repository. Be
 ## Requirements
 - GitHub account with SSH or HTTPS access configured.
 - Git installed with PATH access (`git --version` works).
+- Homebrew for installing packages
 - Python 3.10+ with the `venv` module.
 - Terminal access on macOS, Linux, or Windows via WSL.
 - Basic familiarity with copying commands and reading terminal output.
@@ -14,7 +15,6 @@ Session 0 verifies that your local workstation can work with this repository. Be
 1. **Confirm GitHub connectivity**
    ```bash
    git --version
-   ssh -T git@github.com   # optional but recommended if using SSH
    ```
    Resolve authentication prompts before proceeding.
 
@@ -30,7 +30,6 @@ Session 0 verifies that your local workstation can work with this repository. Be
    ```bash
    python3 -m venv .venv            # use `python -m venv .venv` on Windows if python3 is unavailable
    source .venv/bin/activate        # macOS/Linux/WSL
-   .venv\Scripts\activate           # Windows PowerShell / cmd
    ```
    The prompt should show `(.venv)` when the environment is active.
 
