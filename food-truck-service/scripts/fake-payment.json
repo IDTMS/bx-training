@@ -1,0 +1,14 @@
+{
+  "type": "payment.created",
+  "merchant_id": "REPLACE_WITH_SQUARE_MERCHANT_ID",
+  "data": {
+    "type": "payment",
+    "object": {
+      "payment": {
+        "merchant_id": "REPLACE_WITH_SQUARE_MERCHANT_ID",
+        "created_at": "2023-01-01T12:00:00Z",
+        "id": "PAYMENT_ID"
+      }
+    }
+  }
+}

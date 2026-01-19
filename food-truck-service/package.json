@@ -1,0 +1,22 @@
+{
+  "name": "food-truck-service",
+  "version": "1.0.0",
+  "description": "Minimal backend for food truck session notifications powered by Square webhooks.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "NODE_ENV=development node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1",
+    "pg": "^8.17.1",
+    "twilio": "^5.11.2"
+  }
+}
